@@ -14,10 +14,14 @@ A fun web app that generates random cat images and programming jokes! Switch bet
 ---
 
 ## 🖼️ Demo
+**Live App:** [https://cat-meme-generator-fmmv.onrender.com](https://cat-meme-generator-fmmv.onrender.com)
+
 ![Cat Meme Generator Screenshot](/Cat-meme/public/images/cat-meme.png)
+
+> ⚡ **Note:** First load may take a few seconds due to free hosting cold start. Subsequent loads are much faster.
 ---
 
-## 🛠️ Getting Started
+
 ## 🛠️ Getting Started (Local)
 
 1. **Clone the repo:**
