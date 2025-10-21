@@ -14,7 +14,7 @@ A fun web app that generates random cat images and programming jokes! Switch bet
 ---
 
 ## 🖼️ Demo
-![Cat Meme Generator Screenshot - light theme](/Cat-meme/public/images/cat-meme.png)
+![Cat Meme Generator Screenshot](/Cat-meme/public/images/cat-meme.png)
 ---
 
 ## 🛠️ Getting Started
