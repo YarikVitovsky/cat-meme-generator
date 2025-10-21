@@ -14,10 +14,15 @@ A fun web app that generates random cat images and programming jokes! Switch bet
 ---
 
 ## 🖼️ Demo
+**Live App:** [https://cat-meme-generator-fmmv.onrender.com](https://cat-meme-generator-fmmv.onrender.com)
+
 ![Cat Meme Generator Screenshot](public/images/cat-meme.png)
+
+> ⚡ **Note:** First load may take a few seconds due to free hosting cold start. Subsequent loads are much faster.
 ---
 
 ## 🛠️ Getting Started
+## 🛠️ Getting Started (Local)
 
 1. **Clone the repo:**
    ```bash
@@ -30,12 +35,19 @@ A fun web app that generates random cat images and programming jokes! Switch bet
    ```
 3. **Start the server:**
    ```bash
-   nodemon index.js
-   # or
    node index.js
+   # or
+   nodemon index.js (for development)
    ```
 4. **Open in your browser:**
    [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 Recruiter Info
+- For the fastest demo, use the live app link above.
+- If you run locally, install dependencies and start the server as shown above.
+- **Cold start warning:** Free hosting may cause a short delay on first load.
 
 ---
 
