@@ -44,13 +44,6 @@ A fun web app that generates random cat images and programming jokes! Switch bet
 
 ---
 
-## 🌐 Recruiter Info
-- For the fastest demo, use the live app link above.
-- If you run locally, install dependencies and start the server as shown above.
-- **Cold start warning:** Free hosting may cause a short delay on first load.
-
----
-
 ## 📱 Mobile Friendly
 The layout adapts to any screen size, so you can enjoy cat memes on your phone or desktop!
 
