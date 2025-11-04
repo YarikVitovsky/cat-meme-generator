@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    color: #23272A;
+    transition: background 0.3s, color 0.3s;
+    padding: 40px;
+    margin: 0;
+}
+
+body.no-transition,
+body.no-transition * {
+    transition: none !important;
+}
+
+body.dark-theme {
+    background: #23272A;
+    color: #f9f9f9;
+}
+
+.app {
+    position: relative;
+    min-height: 100vh;
+}
+
+.switch {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 28px;
+    background: #ccc;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.switch::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: left 0.3s;
+}
+
+body.dark-theme .switch {
+    background: #23272A;
+}
+
+body.dark-theme .switch::before {
+    left: 26px;
+    background: #ff6b81;
+}
+
+.meme-content {
+    max-width: 540px;
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meme-content img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meme-content p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 95%;
+    max-width: 520px;
+    text-align: center;
+    word-break: break-word;
+    white-space: pre-line;
+}
+
+.generate-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: #ff6b81;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.generate-btn:hover {
+    background: #ff5268;
+}
+
+.generate-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.loading {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #ff6b81;
+}
+
+@media (max-width: 600px) {
+    .meme-content {
+        max-width: 98vw;
+        width: 98vw;
+        padding: 0 1vw;
+    }
+
+    .meme-content img {
+        max-width: 98vw;
+    }
+
+    .meme-content p {
+        font-size: 1rem;
+        max-width: 98vw;
+    }
+}
